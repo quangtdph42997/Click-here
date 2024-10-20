@@ -1,6 +1,6 @@
 window.onload = function() {
     $(function() {
-        var string = "Chúc xinh gái 20/10 vui vẻ nhaaaaa <3";
+        var string = "Chúc xinh gái 20/10 vui vẻ nhaaaaa <3 ";
         var q = jQuery.map(string.split(''), function(letter) {
             return $('<span>' + letter + '</span>');
         });
