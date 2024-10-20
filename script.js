@@ -1,6 +1,6 @@
 window.onload = function() {
     $(function() {
-        var string = "Happy Women's Day!!! October 20 \n Chúc mẹ yêu và các bạn nữ một ngày 20/10 thật tuyệt vời và đặc biệt!";
+        var string = "Chúc xinh gái 20/10 vui vẻ nhaaaaa <3";
         var q = jQuery.map(string.split(''), function(letter) {
             return $('<span>' + letter + '</span>');
         });
